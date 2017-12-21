@@ -1,6 +1,7 @@
 package com.kiabi.kialocator.ws;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,6 +13,7 @@ import com.kiabi.kialocator.bo.Salle;
 import com.kiabi.kialocator.repository.PhotoRepository;
 import com.kiabi.kialocator.repository.SalleRepository;
 
+@CrossOrigin(origins = {"https://kia-locator-admin.herokuapp.com/","https://kialocator.herokuapp.com/"})
 @RestController
 public class SalleWS {
 
