@@ -13,7 +13,8 @@ import com.kiabi.kialocator.bo.Salle;
 import com.kiabi.kialocator.repository.PhotoRepository;
 import com.kiabi.kialocator.repository.SalleRepository;
 
-@CrossOrigin(origins = {"https://kia-locator-admin.herokuapp.com/","https://kialocator.herokuapp.com/"})
+@CrossOrigin(origins = {"https://kia-locator-admin.herokuapp.com","https://kialocator.herokuapp.com",
+		"http://localhost:8100"})
 @RestController
 public class SalleWS {
 
