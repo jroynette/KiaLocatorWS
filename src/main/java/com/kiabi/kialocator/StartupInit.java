@@ -31,7 +31,7 @@ public class StartupInit {
 		plan1.setBatiment("1");
 		plan1.setEtage("1");
 		plan1.setSite("Hem");
-		plan1.setUrl("http://manager.groupe-bdl.com/web_content/modeles/09-plan-maison-individuelle-plain-pied-3.jpg");
+		plan1.setUrl("https://photos-4.dropbox.com/t/2/AADkbB_mrfoteamVZcHXYpNQqvb1v-Cc9r3fyWHHiD10qg/12/20949726/png/32x32/1/_/1/2/Plan%20Lys%20-%20Batiment%20B%20-%20Niv%201.png/EM7e2g8Y9IsWIAcoBw/HUv0qJB3wvg2viJDn_h_FnqOUtxYOQh_5bC3ztk8NMw?preserve_transparency=1&size=2048x1536&size_mode=3");
 		
 		Salle salle1 = new Salle();
 		salle1.setNom("salle1");
@@ -53,7 +53,7 @@ public class StartupInit {
 		
 		Photo photo1 = new Photo();
 		photo1.setLibelle("photo1");
-		photo1.setUrl("http://manager.groupe-bdl.com/web_content/modeles/09-plan-maison-individuelle-plain-pied-3.jpg");
+		photo1.setUrl("https://photos-4.dropbox.com/t/2/AADkbB_mrfoteamVZcHXYpNQqvb1v-Cc9r3fyWHHiD10qg/12/20949726/png/32x32/1/_/1/2/Plan%20Lys%20-%20Batiment%20B%20-%20Niv%201.png/EM7e2g8Y9IsWIAcoBw/HUv0qJB3wvg2viJDn_h_FnqOUtxYOQh_5bC3ztk8NMw?preserve_transparency=1&size=2048x1536&size_mode=3");
 		photo1.setSalle(salle1);
 		
 		//plan1.getSalles().add(salle2);
