@@ -31,7 +31,7 @@ public class StartupInit {
 		plan1.setBatiment("1");
 		plan1.setEtage("1");
 		plan1.setSite("Hem");
-		plan1.setUrl("http://www.construiresamaison.com/images/plan-maison-ecologique-vide-rdc-17874.jpg");
+		plan1.setUrl("http://manager.groupe-bdl.com/web_content/modeles/09-plan-maison-individuelle-plain-pied-3.jpg");
 		
 		Salle salle1 = new Salle();
 		salle1.setNom("salle1");
@@ -53,7 +53,7 @@ public class StartupInit {
 		
 		Photo photo1 = new Photo();
 		photo1.setLibelle("photo1");
-		photo1.setUrl("http://www.construiresamaison.com/images/plan-maison-ecologique-vide-rdc-17874.jpg");
+		photo1.setUrl("http://manager.groupe-bdl.com/web_content/modeles/09-plan-maison-individuelle-plain-pied-3.jpg");
 		photo1.setSalle(salle1);
 		
 		//plan1.getSalles().add(salle2);
