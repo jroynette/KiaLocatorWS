@@ -28,10 +28,10 @@ public class StartupInit {
 	public void init() {
 
 		Plan plan1 = new Plan();
-		plan1.setBatiment("B");
+		plan1.setBatiment("2");
 		plan1.setEtage("1");
 		plan1.setSite("Lys");
-		plan1.setUrl("https://tinyurl.com/planKiaLocator");
+		plan1.setUrl("https://img15.hostingpics.net/pics/327151PlanLysBatimentBNiv1.png");
 		
 		Salle salle1 = new Salle();
 		salle1.setNom("Pantalon");
@@ -51,7 +51,7 @@ public class StartupInit {
 		
 		Photo photo1 = new Photo();
 		photo1.setLibelle("photo1");
-		photo1.setUrl("https://tinyurl.com/planKiaLocator");
+		photo1.setUrl("https://img15.hostingpics.net/pics/327151PlanLysBatimentBNiv1.png");
 		photo1.setSalle(salle1);
 		
 		//plan1.getSalles().add(salle2);
